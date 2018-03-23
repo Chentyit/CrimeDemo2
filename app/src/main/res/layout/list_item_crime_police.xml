@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/crime_title_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crime Title"/>
+
+    <TextView
+        android:id="@+id/crime_date_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crime Date"/>
+
+    <Button
+        android:id="@+id/connect_police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
